@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032354172A7D8DB400DF019C /* SLANG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032354162A7D8DB400DF019C /* SLANG.swift */; };
+		032354192A7D8EC900DF019C /* GRAMMER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032354182A7D8EC900DF019C /* GRAMMER.swift */; };
+		0323541B2A7D8F8B00DF019C /* QUESTIONS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323541A2A7D8F8B00DF019C /* QUESTIONS.swift */; };
+		0323541D2A7D90F300DF019C /* questiondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323541C2A7D90F300DF019C /* questiondata.swift */; };
 		A60F04DF2A7CC269002FD220 /* ChooseLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F04DE2A7CC269002FD220 /* ChooseLanguage.swift */; };
 		A60F04E12A7CCB9E002FD220 /* CHAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F04E02A7CCB9E002FD220 /* CHAT.swift */; };
 		A60F04E32A7CCC74002FD220 /* OPENCHAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F04E22A7CCC74002FD220 /* OPENCHAT.swift */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032354162A7D8DB400DF019C /* SLANG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLANG.swift; sourceTree = "<group>"; };
+		032354182A7D8EC900DF019C /* GRAMMER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRAMMER.swift; sourceTree = "<group>"; };
+		0323541A2A7D8F8B00DF019C /* QUESTIONS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUESTIONS.swift; sourceTree = "<group>"; };
+		0323541C2A7D90F300DF019C /* questiondata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questiondata.swift; sourceTree = "<group>"; };
 		A60F04DE2A7CC269002FD220 /* ChooseLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguage.swift; sourceTree = "<group>"; };
 		A60F04E02A7CCB9E002FD220 /* CHAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHAT.swift; sourceTree = "<group>"; };
 		A60F04E22A7CCC74002FD220 /* OPENCHAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPENCHAT.swift; sourceTree = "<group>"; };
@@ -66,8 +74,12 @@
 				F9999F162A7A239300CEF155 /* Food.swift */,
 				A60F04E02A7CCB9E002FD220 /* CHAT.swift */,
 				A60F04E22A7CCC74002FD220 /* OPENCHAT.swift */,
+				032354162A7D8DB400DF019C /* SLANG.swift */,
+				032354182A7D8EC900DF019C /* GRAMMER.swift */,
+				0323541A2A7D8F8B00DF019C /* QUESTIONS.swift */,
 				F9999F062A7A0FD300CEF155 /* Assets.xcassets */,
 				F9999F082A7A0FD300CEF155 /* Preview Content */,
+				0323541C2A7D90F300DF019C /* questiondata.swift */,
 			);
 			path = "BLOSSOM WORDS";
 			sourceTree = "<group>";
@@ -149,12 +161,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67A632D2A7CC02700F8917A /* Login.swift in Sources */,
+				0323541B2A7D8F8B00DF019C /* QUESTIONS.swift in Sources */,
 				F9999F052A7A0FCE00CEF155 /* ContentView.swift in Sources */,
 				A60F04E32A7CCC74002FD220 /* OPENCHAT.swift in Sources */,
+				032354172A7D8DB400DF019C /* SLANG.swift in Sources */,
 				F9999F032A7A0FCE00CEF155 /* BLOSSOM_WORDSApp.swift in Sources */,
 				A60F04DF2A7CC269002FD220 /* ChooseLanguage.swift in Sources */,
 				A60F04E12A7CCB9E002FD220 /* CHAT.swift in Sources */,
 				F9999F172A7A239300CEF155 /* Food.swift in Sources */,
+				032354192A7D8EC900DF019C /* GRAMMER.swift in Sources */,
+				0323541D2A7D90F300DF019C /* questiondata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
